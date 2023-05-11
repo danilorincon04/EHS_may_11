@@ -12,6 +12,7 @@
 		9D4DACD82A0D69570065F653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DACD72A0D69570065F653 /* Assets.xcassets */; };
 		9D4DACDB2A0D69570065F653 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DACDA2A0D69570065F653 /* Preview Assets.xcassets */; };
 		9D4DACE22A0D6A880065F653 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DACE12A0D6A880065F653 /* SwiftUIView.swift */; };
+		9D4DACE42A0D6B440065F653 /* SwiftUIViewTEST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DACE32A0D6B440065F653 /* SwiftUIViewTEST.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9D4DACD72A0D69570065F653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4DACDA2A0D69570065F653 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D4DACE12A0D6A880065F653 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		9D4DACE32A0D6B440065F653 /* SwiftUIViewTEST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewTEST.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				9D4DACD32A0D69550065F653 /* EHS_may_11App.swift */,
 				9D4DACD52A0D69550065F653 /* ContentView.swift */,
 				9D4DACE12A0D6A880065F653 /* SwiftUIView.swift */,
+				9D4DACE32A0D6B440065F653 /* SwiftUIViewTEST.swift */,
 				9D4DACD72A0D69570065F653 /* Assets.xcassets */,
 				9D4DACD92A0D69570065F653 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				9D4DACD62A0D69550065F653 /* ContentView.swift in Sources */,
 				9D4DACD42A0D69550065F653 /* EHS_may_11App.swift in Sources */,
+				9D4DACE42A0D6B440065F653 /* SwiftUIViewTEST.swift in Sources */,
 				9D4DACE22A0D6A880065F653 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
