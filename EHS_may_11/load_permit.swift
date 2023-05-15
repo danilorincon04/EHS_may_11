@@ -1,20 +1,29 @@
 //
 //  load_permit.swift
-//  EHS_may_11
+//  IOS_prototype2
 //
-//  Created by Thayer on 5/11/23.
+//  Created by Thayer on 4/30/23.
 //
 
 import SwiftUI
 
-struct load_permit: View {
+struct Load_PermitView: View {
+    let permits = [
+    "permit number 1",
+    "permit number 2",
+    "permit number 3",
+    "permit number 4",
+    ]
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List(permits, id: \.self) {
+                permits in
+                NavigationLink(destination:Side_BView(),label: {
+                    Text("side b")
+                })
+            }
+        }
     }
+    
 }
-
-struct load_permit_Previews: PreviewProvider {
-    static var previews: some View {
-        load_permit()
-    }
-}
+//
