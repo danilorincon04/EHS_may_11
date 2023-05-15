@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//
+
 struct Heating_Plant_Permit: View {
     @State private var HP_space_identification : String = ""
     @State private var HP_work_to_be_performed: String = ""

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//
+
 struct Side_AView: View {
     //@State private var date: String = ""
     @State private var time: String = ""

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//
+
 struct Request_normal_PermitView: View {
     let confinedSpaces = [
     "confined space number 1",

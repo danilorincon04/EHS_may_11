@@ -11,6 +11,8 @@
 		9D21E8192A12AED700E3D2C7 /* front_screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21E8182A12AED700E3D2C7 /* front_screen.swift */; };
 		9D21E81B2A12AEFC00E3D2C7 /* request_permit_heat_other.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21E81A2A12AEFC00E3D2C7 /* request_permit_heat_other.swift */; };
 		9D21E81D2A12AF2700E3D2C7 /* request_normal_permit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21E81C2A12AF2700E3D2C7 /* request_normal_permit.swift */; };
+		9D21E8202A12B21400E3D2C7 /* MySQLKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9D21E81F2A12B21400E3D2C7 /* MySQLKit */; };
+		9D21E8222A12B26E00E3D2C7 /* sql query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D21E8212A12B26E00E3D2C7 /* sql query.swift */; };
 		9D4DACD42A0D69550065F653 /* EHS_may_11App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DACD32A0D69550065F653 /* EHS_may_11App.swift */; };
 		9D4DACD62A0D69550065F653 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4DACD52A0D69550065F653 /* ContentView.swift */; };
 		9D4DACD82A0D69570065F653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4DACD72A0D69570065F653 /* Assets.xcassets */; };
@@ -27,6 +29,7 @@
 		9D21E8182A12AED700E3D2C7 /* front_screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = front_screen.swift; sourceTree = "<group>"; };
 		9D21E81A2A12AEFC00E3D2C7 /* request_permit_heat_other.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request_permit_heat_other.swift; sourceTree = "<group>"; };
 		9D21E81C2A12AF2700E3D2C7 /* request_normal_permit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = request_normal_permit.swift; sourceTree = "<group>"; };
+		9D21E8212A12B26E00E3D2C7 /* sql query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sql query.swift"; sourceTree = "<group>"; };
 		9D4DACD02A0D69550065F653 /* EHS_may_11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EHS_may_11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4DACD32A0D69550065F653 /* EHS_may_11App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EHS_may_11App.swift; sourceTree = "<group>"; };
 		9D4DACD52A0D69550065F653 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D21E8202A12B21400E3D2C7 /* MySQLKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +79,7 @@
 				9D21E81A2A12AEFC00E3D2C7 /* request_permit_heat_other.swift */,
 				9D21E81C2A12AF2700E3D2C7 /* request_normal_permit.swift */,
 				9D4DACD52A0D69550065F653 /* ContentView.swift */,
+				9D21E8212A12B26E00E3D2C7 /* sql query.swift */,
 				9D4DACE52A0D6DAD0065F653 /* side_a.swift */,
 				9D4DACE72A0D6DE50065F653 /* side_b.swift */,
 				9D4DACE92A0D6E320065F653 /* load_permit.swift */,
@@ -110,6 +115,9 @@
 			dependencies = (
 			);
 			name = EHS_may_11;
+			packageProductDependencies = (
+				9D21E81F2A12B21400E3D2C7 /* MySQLKit */,
+			);
 			productName = EHS_may_11;
 			productReference = 9D4DACD02A0D69550065F653 /* EHS_may_11.app */;
 			productType = "com.apple.product-type.application";
@@ -138,6 +146,9 @@
 				Base,
 			);
 			mainGroup = 9D4DACC72A0D69550065F653;
+			packageReferences = (
+				9D21E81E2A12B21400E3D2C7 /* XCRemoteSwiftPackageReference "mysql-kit" */,
+			);
 			productRefGroup = 9D4DACD12A0D69550065F653 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -164,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D21E8222A12B26E00E3D2C7 /* sql query.swift in Sources */,
 				9D4DACEA2A0D6E320065F653 /* load_permit.swift in Sources */,
 				9D21E81B2A12AEFC00E3D2C7 /* request_permit_heat_other.swift in Sources */,
 				9D4DACD62A0D69550065F653 /* ContentView.swift in Sources */,
@@ -375,6 +387,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9D21E81E2A12B21400E3D2C7 /* XCRemoteSwiftPackageReference "mysql-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/mysql-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9D21E81F2A12B21400E3D2C7 /* MySQLKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9D21E81E2A12B21400E3D2C7 /* XCRemoteSwiftPackageReference "mysql-kit" */;
+			productName = MySQLKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9D4DACC82A0D69550065F653 /* Project object */;
 }

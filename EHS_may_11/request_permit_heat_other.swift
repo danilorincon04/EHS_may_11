@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-//
+
 struct Request_PermitView: View {
     var body: some View{
         VStack {
